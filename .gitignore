@@ -1,10 +1,31 @@
-out/
-awesome-go
+# Dependency directories
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
 
-# Folders
-.idea
-.vscode
-test_stale_repositories_log
+# Build output
+out/
+
+# Go binaries
 *.exe
-# Local Netlify folder
-.netlify
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test binary
+*.test
+
+# Go coverage output
+*.out
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
