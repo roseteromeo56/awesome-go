@@ -1,0 +1,31 @@
+{
+  "name": "awesome-go",
+  "version": "1.0.0",
+  "description": "A curated list of awesome Go frameworks, libraries and software",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server out -p 3000",
+    "dev": "http-server out -p 3000",
+    "build": "go run main.go",
+    "test": "go test ./..."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avelino/awesome-go.git"
+  },
+  "keywords": [
+    "go",
+    "golang",
+    "awesome",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avelino/awesome-go/issues"
+  },
+  "homepage": "https://github.com/avelino/awesome-go#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
